@@ -6,6 +6,20 @@ Ruby on rails development Environment.
 
 ## Docker
 
+To download: 
+- create an empty directory with your project name `$ mkdir <projectname>`
+
+- `$ cd <projectname>`
+
+- clone this directory to the current one`$ git clone <repo address> .`
+
+- remove the .git directory  `$ rm -rf .git`
+
+
+- copy .env.template to .env `$ cp .env.template .env`
+
+- edit the .env `$ vi .env`
+ 
 To build:
 
 - run `docker-compose build`

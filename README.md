@@ -12,7 +12,7 @@ To download:
 - `$ cd <projectname>`
 
 - clone this directory to the current one`$ git clone <repo address> .`
-
+- TEMP: `$ git checkout agile6`
 - remove the .git directory  `$ rm -rf .git`
 
 
@@ -43,11 +43,7 @@ To cleanup:
 
 ## Rails
 
-To start a new project:
-
-- run `rails new MYAPP` then `cd MYAPP`
-
-- Install bundles. run `bundle update && bundle install`
+Once you've got a terminal into the container
 
 Starting the server:
 

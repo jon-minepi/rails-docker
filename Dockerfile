@@ -1,6 +1,6 @@
 FROM ruby
 
-WORKDIR /home/$APPNAME
+WORKDIR /home/$APP_NAME
 
 EXPOSE $PORT
 

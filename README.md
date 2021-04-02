@@ -5,6 +5,7 @@ https://www.freecodecamp.org/news/painless-rails-development-environment-setup-w
 Ruby on rails development Environment.
 
 ## Docker
+> install chromedriver
 
 To download: 
 - create an empty directory with your project name `$ mkdir <projectname>`
@@ -18,6 +19,9 @@ To download:
 
 - copy .env.template to .env `$ cp .env.template .env`
 
+> This doesnt do what I want it to, need to manually change env variables in 
+> Dockerfile
+ 
 - edit the .env `$ vi .env`
  
 To build:
@@ -41,9 +45,16 @@ To cleanup:
 - run `docker-compose down`
 - run `docker rmi rails-docker_ruby_dev`
 
+
 ## Rails
 
-Once you've got a terminal into the container
+To start a new project:
+
+- run `rails new .`
+
+- add rexml to Gemfile `$ echo "gem 'rexml'" >> Gemfile`
+
+- Install bundles. run `bundle update && bundle install`
 
 Starting the server:
 
